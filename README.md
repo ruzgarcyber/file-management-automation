@@ -19,13 +19,6 @@ It can:
 2. Open the Python script (`main.py`).
 3. Modify the file name, content, and target folder as needed.
 4. Run the script:
-```bash
-python main.py
-# Create a file
-create_file("test.txt", "This is a test text file.")
-
-# Copy file to a folder (creates the folder if it doesn't exist)
-create_folder_and_copy("C:\\Users\\YourUser\\Desktop\\Python_Automation", "test.txt")
 
 Features
 
@@ -36,3 +29,11 @@ Works on Windows
 Includes error handling for common file operations
 
 Modular functions for reuse in other projects
+
+```bash
+python main.py
+# Create a file
+create_file("test.txt", "This is a test text file.")
+
+# Copy file to a folder (creates the folder if it doesn't exist)
+create_folder_and_copy("C:\\Users\\YourUser\\Desktop\\Python_Automation", "test.txt")
